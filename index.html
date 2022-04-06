@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Meat House</title>
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="">
+
+    <meta name="twitter:card" content="app">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:image:alt" content="">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/settings.css">
+    <link rel="stylesheet" href="./assets/styles/grid.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="header_lng_part">
+                        <div class="language">
+                            <div class="selected_flag">
+                                <img id="selected_flag_img" src="./assets/img/header/flags/flag.png">
+                            </div>
+                            <div class="flag_list">
+                                <div class="flag_list_trigger">
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+                                <ul class="flag_list_images">
+                                    <li><img onclick="selected_flag_img.src = event.target.src;"
+                                            src="./assets/img/header/flags/ad.png"></li>
+                                    <li><img onclick="selected_flag_img.src = event.target.src;"
+                                            src="./assets/img/header/flags/ae.png"></li>
+                                    <li><img onclick="selected_flag_img.src = event.target.src;"
+                                            src="./assets/img/header/flags/af.png"></li>
+                                    <li><img onclick="selected_flag_img.src = event.target.src;"
+                                            src="./assets/img/header/flags/ag.png"></li>
+                                    <li><img onclick="selected_flag_img.src = event.target.src;"
+                                            src="./assets/img/header/flags/bd.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="language_country_names">
+                            <select name="" id="">
+                                <option value="">USD</option>
+                                <option value="">BD</option>
+                                <option value="">Dollar</option>
+                                <option value="">Euro</option>
+                                <option value="">Rial</option>
+                                <option value="">Rupee</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="logo">
+                        <img src="./assets/img/header/logo.png">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="header_right_part">
+                        <div class="cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>1000</span>
+                        </div>
+                        <div class="total_price">
+                            <span>$100.00</span>
+                        </div>
+                        <div class="login">
+                            <a href="#">
+                                <i class="far fa-user-circle"></i>
+                                <spna>Login</spna>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <ul class="nav_links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li>
+                            <a href="#">PRODUCTS <i class="fas fa-angle-down"></i></a>
+                        </li>
+                        <li><a href="#">blog <i class="fas fa-angle-down"></i></a></li>
+                        <li><a href="#">pages <i class="fas fa-angle-down"></i></a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <div class="search_box">
+                        <form>
+                            <input type="text" placeholder="search...">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="banner">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <div class="banner_content">
+                            <h5>for a limited time sale 15% on all</h5>
+                            <div class="main_heading">
+                                <h1>Australian Wagyu</h1>
+                                <div class="circle_text">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        style="height: 150px; width: 150px;" viewBox="50 30 180 180"
+                                        xml:space="preserve">
+    
+                                        <defs>
+                                            <path id="circlePath" style="stroke: black; stroke-width: 1; fill:none;"
+                                                d="M 150, 130 m -60, 0 a 60, 60 0 0, 1 120, 0 a 60, 60 0 0, 1 -120,0 ">
+                                            </path>
+                                        </defs>
+    
+                                        <g>
+                                            <text file="#000">
+                                                <textPath xlink:href="#circlePath" style="font-size: 30px;">
+                                                    direct from farm fresh & taste
+                                                </textPath>
+                                            </text>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p>Find out why Australian Wagyu is our best selling beef. Use code HOLIDAYSALE</p>
+                            <h4>Starting at <span>$235.95</span></h4>
+                            <div class="text-center">
+                                <a href="#" class="btn_outline btn_fill">buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <ul class="features_list">
+                <li>
+                    <a href="">
+                        <img src="./assets/img/features/plants.png">
+                        <p>100% Grass Fed and Antibiotic Free</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <img src="./assets/img/features/delivery.png">
+                        <p>Delivery NY Wide</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <img src="./assets/img/features/cleaver.png">
+                        <p>Cut Fresh to Order Promise</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <img src="./assets/img/features/cow.png">
+                        <p>CA Family Owned & Operated</p>
+                    </a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="explore">
+        <div class="container">
+            <h2>explore the range</h2>
+            <ul class="explore_list">
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/explore/beef.png">
+                        <p>shop beef now</p>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/explore/lamb.png">
+                        <p>lamb</p>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/explore/pork.png">
+                        <p>pork</p>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/explore/poultry.png">
+                        <p>poultry</p>
+                    </a></li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/explore/goat.png">
+                        <p>goat</p>
+                    </a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="seasonal">
+                        <img class="seasonal_img" src="./assets/img/gallery/seasonal.png">
+                        <div class="seasonal_content">
+                            <h3>Seasonal &amp; Special</h3>
+                            <h4>Fresh &amp; Tasty</h4>
+                            <a href="#">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="seasonal">
+                                <img class="chic_img" src="./assets/img/gallery/chic.png">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="seasonal seasonal_3rd">
+                                <img class="steak_img" src="./assets/img/gallery/steak.png">
+                                <div class="seasonal_content">
+                                    <h3>20% Off</h3>
+                                    <h4>Dried-Aged Beef</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="seasonal seasonal_4th">
+                                <img src="./assets/img/gallery/spice.png">
+                                <div class="seasonal_content">
+                                    <h3>$15.55 OFF</h3>
+                                    <h4>Spices &amp; Flavours</h4>
+                                    <a href="#">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="seasonal seasonal_4th">
+                                <img src="./assets/img/gallery/box.png">
+                                <div class="seasonal_content">
+                                    <h3>You Choose What's<br> in Your Box</h3>
+                                    
+                                    <a href="#">Get started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="seasonal">
+                        <img class="fresh_img" src="./assets/img/gallery/fresh.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reason">
+        <div class="container">
+            <div class="common_heading common_heading_center">
+                <img src="./assets/img/common_icon.png" class="icon">
+                <h4>why choose us</h4>
+                <h2>Reason to buy from Meat House</h2>
+                <h3>Stay up to date with the latest from Meat House.</h3>
+                <p>For over 40 years, Donald Russell has selected the tastiest and most tender beef for Michelin starred restaurants and luxury hotels.
+                    Our British, grass-fed, melt-in-your-mouth steak and our commitment to quality have earned us over 300,000 Feefo five-star customer reviews.
+                    Free delivery on all orders over £40.</p>
+            </div>
+
+            <div class="reason_list">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/reason/cow.png">
+                            <span>pasture raised</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/reason/spray.png">
+                            <span>pesticides free</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/reason/antibiotic.png">
+                            <span>no antibiotics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/reason/injection.png">
+                            <span>no hormone</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/img/reason/gmos.png">
+                            <span>no gmos</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="establish">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="left">
+                        <div class="img">
+                            <img src="./assets/img/fork/meat.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="right">
+                        <div class="common_heading">
+                            <img src="./assets/img/common_icon.png" class="icon">
+                            <h4>Established since 2005</h4>
+                            <h2>From our farm to your fork</h2>
+                            <h3>Learn more about the range of our services.</h3>
+                        </div>
+                        <div class="content_part">
+                            <p>Welcome to Meat House! We're a farmer owned and operated butcher shop. Our meats, including poultry, pork, beef, and lamb, come from animals that are raised sustainably on pasture. We strive to provide you, our customer, with only the highest quality products and customer service.</p>
+                            <p>We welcome you to partner with Premier Meat and become part of our ever growing family of those committed to making a difference</p>
+                            <a href="#" class="btn_outline">buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="house_story">
+        <div class="side_img1"></div>
+        <div class="side_img2"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="story_content">
+                        <div class="common_heading">
+                            <img src="./assets/img/common_icon.png" class="icon">
+                            <h4>we love animals</h4>
+                            <h2>The Meat House Story</h2>
+                            <h3> All of the animals on our farm are lovingly cared for and believe that it really does affect the quality of the meat we're producing.</h3>
+                        </div>
+                        
+                        <div class="story_list">
+                            <div class="item">
+                                <div class="left">
+                                    <button>
+                                        <i onclick="house_p_1.classList.toggle('active'); house_i_1.classList.toggle('active');" id="house_i_1" class="fas fa-angle-right"></i>
+                                    </button>
+                                </div>
+                                <div class="right">
+                                    <h3>100% grass-fed</h3>
+                                    <p id="house_p_1">Our cattle are raised in stress-free open ranges grazing on nutritious, vitamin-rich grass. We’ve worked hard with our delivery partner to ensure your order arrives just how it would be in our farm shop. </p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="left">
+                                    <button>
+                                        <i onclick="house_p_2.classList.toggle('active'); house_i_2.classList.toggle('active');" id="house_i_2" class="fas fa-angle-right"></i>
+                                    </button>
+                                </div>
+                                <div class="right">
+                                    <h3>Carbon Negative</h3>
+                                    <p id="house_p_2">Our cattle are raised in stress-free open ranges grazing on nutritious, vitamin-rich grass. We’ve worked hard with our delivery partner to ensure your order arrives just how it would be in our farm shop. </p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="left">
+                                    <button>
+                                        <i onclick="house_p_3.classList.toggle('active'); house_i_3.classList.toggle('active');" id="house_i_3" class="fas fa-angle-right"></i>
+                                    </button>
+                                </div>
+                                <div class="right">
+                                    <h3>No Chemicals</h3>
+                                    <p id="house_p_3">Our cattle are raised in stress-free open ranges grazing on nutritious, vitamin-rich grass. We’ve worked hard with our delivery partner to ensure your order arrives just how it would be in our farm shop. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="story_right">
+                        <div class="img">
+                            <img src="./assets/img/story/man-pork.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counter">
+        <div class="container">
+            <div class="counter_list">
+                <div class="item">
+                    <h4>32</h4>
+                    <h5>Organic</h5>
+                </div>
+                <div class="item">
+                    <h4>26</h4>
+                    <h5>Fast &amp; Easy</h5>
+                </div>
+                <div class="item">
+                    <h4>45</h4>
+                    <h5>Resistant</h5>
+                </div>
+                <div class="item">
+                    <h4>11</h4>
+                    <h5>High Quality</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inside">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="common_heading common_heading_center">
+                        <img src="./assets/img/common_icon.png" class="icon">
+                        <h4>discover</h4>
+                        <h2>inside the box</h2>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="content_area">
+                <div class="main_img">
+                    <img src="./assets/img/inside/box.png" alt="">
+                </div>
+                <div class="text_content text_content_1">
+                    <h3>Easy to follow recipes</h3>
+                    <p>Thats right, handy and convenient 'easy to follow' recipes sure to please the whole family included in each</p>
+                </div>
+
+                <div class="text_content text_content_2">
+                    <h3>No Contracts</h3>
+                    <p>Working round you means no fixed terms or contracts, just flexible 'on demand' ordering</p>
+                </div>
+
+                <div class="text_content text_content_3">
+                    <h3>100% Fresh Produce</h3>
+                    <p>We work with passionate producers and farmers, meaning your Meat Box contains the very best and 
+                        consistent product our country </p>
+                </div>
+
+                <div class="side_img_1">
+                    <img src="./assets/img/inside/side_img1.png" alt="">
+                </div>
+
+                <div class="side_img_2">
+                    <img src="./assets/img/inside/side_img2.png" alt="">
+                </div>
+
+                <div class="side_img_3">
+                    <img src="./assets/img/inside/side_img3.png" alt="">
+                </div>
+
+                <div class="arrow_img_1">
+                    <img src="./assets/img/inside/shape1.png" alt="">
+                </div>
+
+                <div class="arrow_img_2">
+                    <img src="./assets/img/inside/shape2.png" alt="">
+                </div>
+
+                <div class="arrow_img_3">
+                    <img src="./assets/img/inside/shape3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product">
+        <div class="container">
+            <h2>A few of our most popular products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="product_body">
+                        <div class="img">
+                            <img src="./assets/img/product/p1.png" class="product_img" alt="">
+                            
+                        </div>
+                        <h4>Lamb Soup Bone (Frozen)</h4>
+                        <h5>1.5-2lbs</h5>
+                        <h6>$2.69</h6>
+
+                        <div class="action">
+                            <input value="1" min="1" type="number">
+                            <a href="" class="btn_outline">
+                                <i class="fas fa-shopping-cart fa-"></i>
+                                add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product_body">
+                        <div class="img">
+                            <img src="./assets/img/product/p2.png" class="product_img" alt="">
+                            
+                        </div>
+                        <h4>Beef Cross-Cut Shanks</h4>
+                        <h5>1-1.5lbs</h5>
+                        <h6>$6.99</h6>
+
+                        <div class="action">
+                            <input value="1" min="1" type="number">
+                            <a href="" class="btn_outline">
+                                <i class="fas fa-shopping-cart fa-"></i>
+                                add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="product_body">
+                        <div class="img">
+                            <img src="./assets/img/product/p3.png" class="product_img" alt="">
+                            
+                        </div>
+                        <h4>Gress-fed Beef Eye Round Roast</h4>
+                        <h5>1-2lbs</h5>
+                        <h6>$11.79</h6>
+
+                        <div class="action">
+                            <input value="1" min="1" type="number">
+                            <a href="" class="btn_outline">
+                                <i class="fas fa-shopping-cart fa-"></i>
+                                add to cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="client">
+        <div class="row">
+            <div class="col-6">
+                <div class="section_img">
+                    
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="client_content">
+                    <div class="common_heading">
+                        <img src="./assets/img/common_icon.png" class="icon">
+                        <h4>Testimonials</h4>
+                        <h2>Meet our happy clients</h2>
+                        <h3>We believe in the traditional values of butchery, those of quality, service and value.</h3>
+                    </div>
+                    <div class="client_cmnt_body">
+                        <div class="left">
+                            <img src="./assets/img/client/client1.png" alt="">
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star-half-alt"></i></li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <p>Completely amazing product from a great company that is delivering something I truly love (taste and nutrition) while doing so in a manner that respects and preserves our land for future generations. Great work guys and count me in as a long term customer!</p>
+                            <a href="#">Whitney S.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <div class="common_heading common_heading_center">
+                <img src="./assets/img/common_icon.png" class="icon">
+                <h4>our blogs</h4>
+                <h2>articles & recipes</h2>
+                <h3>Stay up to date with the latest from Meat House.</h3>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="blog_item">
+                        <div class="img">
+                            <img src="./assets/img/blog/b1.png" alt="">
+                            <h6>12/24/2020</h6>
+                            <h3>Almond and Parsley Crusted Rack of Lamb - Best recipe of day</h3>
+                            <a href="#" class="btn_outline btn_outline_white">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blog_item">
+                        <div class="img">
+                            <img src="./assets/img/blog/b2.png" alt="">
+                            <h6>12/24/2020</h6>
+                            <h3>Almond and Parsley Crusted Rack of Lamb - Best recipe of day</h3>
+                            <a href="#" class="btn_outline btn_outline_white">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blog_item">
+                        <div class="img">
+                            <img src="./assets/img/blog/b3.png" alt="">
+                            <h6>12/24/2020</h6>
+                            <h3>How To Make Juicy & Tender Roasted Pork Loin: The Simplest, Easiest Method</h3>
+                            <a href="#" class="btn_outline btn_outline_white">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="map_body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.246507802229!2d90.35932731481648!3d23.809831784560092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1670cdb1779%3A0x645bbf4f0aeb1d56!2sICT%20Village!5e0!3m2!1sen!2sbd!4v1649168692178!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <div class="call_part">
+                        <i class="fas fa-headphones-alt"></i>
+                        <div class="content">
+                            <h3>call us now</h3>
+                            <a href="#">(1800)-77-89-253</a>
+                        </div>
+                    </div>
+                    <div class="s_links">
+                        <h3>follow us</h3>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="./assets/img/footer/payment.png" alt="">
+                </div>
+            </div>
+            <div class="mid">
+                <div class="footer_links">
+                    <div class="link_body">
+                        <h3>store location</h3>
+                        <p>3607 Main St. Stone Ridge, NY 12484</p>
+                        <a class="mail" href="mail">contact@example.com</a>
+                    </div>
+                    <div class="link_body">
+                        <h3>useful links</h3>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our farmers</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="link_body">
+                        <h3>my account</h3>
+                        <ul>
+                            <li><a href="#">my account</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">shopping cart</a></li>
+                            <li><a href="#">shop</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="link_body">
+                        <h3>information</h3>
+                        <ul>
+                            <li><a href="#">delivery information</a></li>
+                            <li><a href="#">our guarantee</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">terms & conditions</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="link_body">
+                        <h3>working house</h3>
+                        <ul>
+                            <li><a href="#">Monday-Friday .......... 09:00 - 22:00</a></li>
+                            <li><a href="#">Saturday .......... 09:00 - 17:00</a></li>
+                            <li><a href="#">Sunday .......... 12:00 - 20:00</a></li>
+                            
+                        </ul>
+                        <p class="happy">
+                            * Happy hour every Friday night between
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="copyright">
+                    <p>&copy; 2022 <a href="#">Meat House.</a> All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

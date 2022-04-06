@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Circular Std';
+    src: url('../fonts/circular-std-medium-500.ttf');
+}
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfair-display');
+}
+:root{
+    --brand: #0d354f;
+    --common_h4: #a3714e;
+    --orange: #e75945;
+    --para_clr: #727272;
+    --white: #ffffff;
+    --off_white: #6e8596;
+    --circular: 'Circular Std';
+    --playfair: 'Playfair Display';
+    --border: 1px solid red;
+}
+.section_heading_title_default{
+    font-size: 13px;
+    color: var(--orange);
+    font-family: var(--circular);
+    text-transform: uppercase;
+}
+.section_heading_default{
+    font-size: 50px;
+    line-height: 52px;
+    color: var(--brand);
+    font-weight: 900;
+    font-family: var(--playfair);
+    text-align: center;
+}
+p{
+    font-size: 14px;
+    line-height:26px;
+    color: var(--para_clr);
+    font-family: var(--circular);
+}
+
+.btn_outline{
+    border: 1px solid var(--brand);
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: var(--brand);
+    font-family: "Circular Std";
+    padding: 15px 45px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.btn_outline:after{
+    content: "";
+    background-color: var(--brand);
+    position: absolute;
+    width: 13px;
+    height: 16px;
+    bottom: -6px;
+    left: -5px;
+    transform: rotate(137deg);
+}
+.btn_outline_white{
+    border: unset;
+}
+.btn_outline_white:after{
+    background-color: #cfd7dc;
+    width: 36px;
+    height: 63px;
+    bottom: -22px;
+    left: -15px;
+    transform: rotate(315deg);
+}
+.btn_fill{
+    background-color: var(--brand);
+    color: white;
+}
