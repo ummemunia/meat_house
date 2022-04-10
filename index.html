@@ -36,13 +36,14 @@
     <link rel="stylesheet" href="./assets/styles/settings.css">
     <link rel="stylesheet" href="./assets/styles/grid.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/responsive.css">
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-xs-4 order-xs-2">
                     <div class="header_lng_part">
                         <div class="language">
                             <div class="selected_flag">
@@ -78,12 +79,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-xs-12 order-xs-1">
                     <div class="logo">
                         <img src="./assets/img/header/logo.png">
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-xs-8 order-xs-3">
                     <div class="header_right_part">
                         <div class="cart">
                             <i class="fas fa-shopping-cart"></i>
@@ -107,8 +108,11 @@
     <nav>
         <div class="container">
             <div class="row">
-                <div class="col-8">
-                    <ul class="nav_links">
+                <div class="col-8 col-xs-4">
+                    <button onclick="nav_links.classList.toggle('active');" class="nav_toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <ul id="nav_links" class="nav_links">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">ABOUT US</a></li>
                         <li>
@@ -119,7 +123,7 @@
                         <li><a href="#">contact</a></li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-xs-8">
                     <div class="search_box">
                         <form>
                             <input type="text" placeholder="search...">
@@ -135,8 +139,8 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-6"></div>
-                    <div class="col-6">
+                    <div class="col-6 d-xs-none"></div>
+                    <div class="col-6 col-xs-12">
                         <div class="banner_content">
                             <h5>for a limited time sale 15% on all</h5>
                             <div class="main_heading">
@@ -238,7 +242,7 @@
     <section id="gallery">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-xs-12">
                     <div class="seasonal">
                         <img class="seasonal_img" src="./assets/img/gallery/seasonal.png">
                         <div class="seasonal_content">
@@ -248,14 +252,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-xs-12">
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-8 col-xs-12">
                             <div class="seasonal">
                                 <img class="chic_img" src="./assets/img/gallery/chic.png">
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 col-xs-12">
                             <div class="seasonal seasonal_3rd">
                                 <img class="steak_img" src="./assets/img/gallery/steak.png">
                                 <div class="seasonal_content">
@@ -267,7 +271,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 col-xs-12">
                             <div class="seasonal seasonal_4th">
                                 <img src="./assets/img/gallery/spice.png">
                                 <div class="seasonal_content">
@@ -277,7 +281,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 col-xs-12">
                             <div class="seasonal seasonal_4th">
                                 <img src="./assets/img/gallery/box.png">
                                 <div class="seasonal_content">
@@ -289,7 +293,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 col-xs-12">
                     <div class="seasonal">
                         <img class="fresh_img" src="./assets/img/gallery/fresh.png">
                     </div>
@@ -350,14 +354,14 @@
     <section id="establish">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-xs-12">
                     <div class="left">
                         <div class="img">
                             <img src="./assets/img/fork/meat.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-xs-12">
                     <div class="right">
                         <div class="common_heading">
                             <img src="./assets/img/common_icon.png" class="icon">
@@ -368,7 +372,7 @@
                         <div class="content_part">
                             <p>Welcome to Meat House! We're a farmer owned and operated butcher shop. Our meats, including poultry, pork, beef, and lamb, come from animals that are raised sustainably on pasture. We strive to provide you, our customer, with only the highest quality products and customer service.</p>
                             <p>We welcome you to partner with Premier Meat and become part of our ever growing family of those committed to making a difference</p>
-                            <a href="#" class="btn_outline">buy now</a>
+                            <a href="#" class="btn_outline">learn more</a>
                         </div>
                     </div>
                 </div>
@@ -381,7 +385,7 @@
         <div class="side_img2"></div>
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 col-xs-12">
                     <div class="story_content">
                         <div class="common_heading">
                             <img src="./assets/img/common_icon.png" class="icon">
@@ -429,7 +433,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-xs-12">
                     <div class="story_right">
                         <div class="img">
                             <img src="./assets/img/story/man-pork.png" alt="">
@@ -526,7 +530,7 @@
         <div class="container">
             <h2>A few of our most popular products</h2>
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-xs-12">
                     <div class="product_body">
                         <div class="img">
                             <img src="./assets/img/product/p1.png" class="product_img" alt="">
@@ -545,7 +549,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-xs-12">
                     <div class="product_body">
                         <div class="img">
                             <img src="./assets/img/product/p2.png" class="product_img" alt="">
@@ -564,7 +568,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-xs-12">
                     <div class="product_body">
                         <div class="img">
                             <img src="./assets/img/product/p3.png" class="product_img" alt="">
@@ -589,12 +593,12 @@
 
     <section id="client">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-xs-12">
                 <div class="section_img">
-                    
+                    <img src="./assets/img/client/man.png" alt="">
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 col-xs-12">
                 <div class="client_content">
                     <div class="common_heading">
                         <img src="./assets/img/common_icon.png" class="icon">
@@ -632,7 +636,7 @@
                 <h3>Stay up to date with the latest from Meat House.</h3>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-xs-12">
                     <div class="blog_item">
                         <div class="img">
                             <img src="./assets/img/blog/b1.png" alt="">
@@ -642,7 +646,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-xs-12">
                     <div class="blog_item">
                         <div class="img">
                             <img src="./assets/img/blog/b2.png" alt="">
@@ -652,7 +656,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-xs-12">
                     <div class="blog_item">
                         <div class="img">
                             <img src="./assets/img/blog/b3.png" alt="">

@@ -254,7 +254,7 @@ nav{
     color: #727272;
     font-family: var(--circular);
 }
-
+/* explore */
 #explore{
     background-color: rgb(243,243,243);
     text-transform: uppercase;
@@ -362,7 +362,7 @@ nav{
     transform: unset;
 }
 .seasonal_4th .seasonal_content a{
-    margin-top: 40px;
+    padding-top: 40px;
 }
 .seasonal img.fresh_img{
     height: 449px;
@@ -421,7 +421,7 @@ nav{
     text-align: center;
 }
 .reason_list ul li{
-    padding-bottom: 30px;
+    padding: 30px;
 }
 .reason_list ul li a{
     display: block;
@@ -793,14 +793,11 @@ nav{
     padding-bottom: 50px;
 }
 #client .section_img{
-    background-image: url("../img/client/man.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
     height: 100%;
 }
 #client .section_img img{
     width: 100%;
+    height: 100%;
 }
 #client .client_content{
     background-color: #fef5ee;
