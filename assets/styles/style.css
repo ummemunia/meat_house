@@ -103,6 +103,9 @@ header{
 }
 
 /* nav*/
+.nav_toggle{
+    display: none;
+}
 nav{
     background-color: var(--brand);
 }

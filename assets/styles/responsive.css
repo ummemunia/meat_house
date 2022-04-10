@@ -278,6 +278,7 @@ nav{
 
     /* nav */
     .nav_toggle{
+        display: block;
         background-color: transparent;
         border: 0;
         color: white;
