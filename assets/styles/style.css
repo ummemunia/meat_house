@@ -797,6 +797,11 @@ nav{
     padding-bottom: 50px;
 }
 #client .section_img{
+    background-image: url("../img/client/man.png");
+    background-size: cover;
+    background-position: center;
+ }
+#client .section_img{
     height: 100%;
 }
 #client .section_img img{
@@ -810,6 +815,9 @@ nav{
     padding-right: 100px;
     padding-top: 115px;
     padding-bottom: 115px;
+}
+#client .client_content .client_cmnt_body .left{
+    justify-content: center;
 }
 
 #client .client_content .common_heading{
