@@ -191,6 +191,45 @@
     .col-sm-12 {
         width: calc(var(--fixed_width)*12%);
     }
+    .order-sm-1{
+        order: 1;
+    }
+    .order-sm-2{
+        order: 2;
+    }
+    .order-sm-3{
+        order: 3;
+    }
+    .order-sm-4{
+        order: 4;
+    }
+    .order-sm-5{
+        order: 5;
+    }
+    .order-sm-6{
+        order: 6;
+    }
+    .order-sm-7{
+        order: 7;
+    }
+    .order-sm-8{
+        order: 8;
+    }
+    .order-sm-9{
+        order: 9;
+    }
+    .order-sm-10{
+        order: 10;
+    }
+    .order-sm-11{
+        order: 11;
+    }
+    .order-sm-12{
+        order: 12;
+    }
+    .d-sm-none{
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width:991.9px) {

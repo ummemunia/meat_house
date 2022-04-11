@@ -1,27 +1,7 @@
-/*header 
-nav
-#banner
-#features
-#explore
-#gallery
-.common_heading
-#reason
-#establish
-#house_story
-#counter
-#inside
-#product
-#client
-#blog
-#map
-footer */
-/*header, **/
-/*footer,
-nav{
-    display: none;
-}*/
+
 
 @media screen and (max-width: 575.9px) {
+    /* header */
     .logo{
         height: 75px;
     }
@@ -316,7 +296,291 @@ nav{
     }
     
 }
-@media (min-width: 576px) and (max-width: 767.9px) {}
+/*header,*/
+/*nav
+/*#banner,
+#features,
+#explore,
+#gallery,
+.common_heading,
+#reason,
+#establish,
+#house_story,
+#counter,
+#inside,
+#product,
+#client,
+#blog,
+#map,
+footer{
+    display: none;
+}*/
+@media (min-width: 576px) and (max-width: 767.9px) {
+    /* header */
+    .header_lng_part{
+        padding: 40px 20px;
+    }
+    .header_right_part{
+        padding: 30px 7px;
+    }
+    /* banner */
+    .banner_content h5{
+        padding: 70px 0px 30px;
+    }
+    .text-center{
+        padding: 10px 0px 70px;
+    }
+    /* features */
+    .features_list{
+        justify-content: space-evenly;
+    }
+    /* explore */
+    #explore h2{
+        margin-bottom: 26px;
+    }
+    .explore_list li{
+        width: 33.33%;
+        margin: 15px 0px 10px;
+    }
+    .explore_list li a img{
+        height: 46px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .explore_list li a p{
+        margin: 15px 0px;
+    }
+    /* gallery */
+    .seasonal .chic_img{
+        height: 210px;
+    }
+    .seasonal_4th .seasonal_content a{
+        padding-top: 15px;
+    }
+    /* reason */
+    #reason .common_heading h2{
+        font-size: 35px;
+    }
+    #reason .common_heading p{
+        width: 90%;
+        text-align: justify;
+    }
+    /* establish*/
+    #establish .right{
+        padding: 0px 30px;
+    }
+    .common_heading h2{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #establish .content_part p{
+        text-align: justify;
+    }
+    /* house story */
+    #house_story .common_heading .icon{
+        padding: 0px 12px;
+    }
+    #house_story .common_heading h4{
+        padding: 20px 12px;
+    }
+    #house_story .story_content{
+        padding: 80px 15px;
+        margin-left: 0;
+        width: 100%;
+    }
+    #house_story .story_content .story_list{
+        padding-right: 0;
+        padding-top: 40px;
+    }
+    #house_story .side_img1{
+        z-index: -1;
+    }
+    #house_story .story_right{
+        padding: 30px 0px;
+    }
+    #house_story .story_right .img {
+        width: 576px;
+    }
+    /* counter */
+    #counter{
+        padding: 30px 0px;
+    }
+    #counter .counter_list {
+        padding: 0px 15px;
+        justify-content: space-evenly;
+    }
+    #counter .counter_list .item {
+        padding: 35px 55px;
+    }
+    /* inside */
+    #inside .content_area .arrow_img_1,
+    #inside .content_area .arrow_img_2,
+    #inside .content_area .arrow_img_3{
+        display: none;
+    }
+    #inside .content_area {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+    #inside .content_area .main_img{
+        position: unset;
+        width: 100%;
+        transform: unset;
+        height: unset;
+        padding: 20px 40px;
+    }
+    #inside .content_area .text_content{
+        position: unset;
+        padding: 0px 0px 0px 40px;
+        width: 430px;
+    }
+    #inside .content_area .text_content p{
+        padding-bottom: 30px;
+    }
+    #inside .content_area .side_img_1{
+        top: 496px;
+        left: -32px;
+    }
+    #inside .content_area .side_img_2 {
+        position: absolute;
+        top: 580px;
+        right: 0px;
+    }
+    #inside .content_area .side_img_3{
+        top: 790px;
+        right: 190px;
+    }
+    /* product list */
+    #product h2{
+        padding-left: 85px;
+    }
+    .product_body{
+        margin: 0px 0px;
+        margin-bottom: 30px;
+    }
+    .product_body .img{
+        width: 420px;
+        margin: 0 auto;
+    }
+    .product_body .img img{
+        width: 100%;
+    }
+    .product_body h4{
+        padding-left: 80px;
+    }
+    .product_body h5{
+        padding-left: 80px;
+    }
+    .product_body h6{
+        padding-left: 80px;
+    }
+    .product_body .action{
+        padding-left: 80px;
+    }
+    .product_body .action a{
+        margin-right: 85px;
+    }
+     /* client part */
+     #client .common_heading .icon{
+        padding-left: 5px;
+    }
+    #client .common_heading h4{
+        padding-left: 5px;
+    }
+    #client .client_content {
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #client .client_content .client_cmnt_body .right p{
+        text-align: justify
+    }
+    #client .client_content .client_cmnt_body .left ul{
+        margin-top: 10px;
+    }
+
+    /* blog */
+    #blog .common_heading_center{
+        padding: 0px 0px;
+    }
+    #blog .common_heading h4{
+        padding: 10px 0px 0px;
+    }
+    #blog .common_heading h2{
+        padding: 10px;
+    }
+    #blog .common_heading h3{
+        padding: 0px 20px 30px;
+    }
+
+    /* map */
+
+    #map{
+        padding-top: 0px;
+    }
+    #map .map_body{
+        height: 300px;
+    }
+
+    /* footer */
+    footer .top .left .call_part{
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+    footer .top .left .s_links{
+        float: left;
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+    footer .top .right{
+        padding: 40px 0px;
+        margin: 0 auto;
+    }
+    footer .mid{
+        padding-bottom: 55px;
+    }
+    .nav_toggle{
+        display: block;
+        background-color: transparent;
+        border: 0;
+        color: white;
+        padding: 8px 15px;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-top: 21px;
+        margin-left: 21px;
+    }
+    nav{
+        position: relative;
+    }
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        left: -100%;
+        top: 80px;
+        z-index: 99;
+        background-color: var(--brand);
+        width: 200px;
+        transition-duration: 0.3s;
+    }
+    .nav_links.active{
+        left: 0;
+    }
+    .nav_links li:first-child a{
+        margin-left: 15px;
+        padding-left: 20px;
+    }
+    .nav_links li a{
+        padding: 20px 20px 10px;
+    }
+    .search_box{
+        margin-right: 20px;
+    }
+    
+}
 @media (min-width: 768px) and (max-width: 991.9px) {}
 @media (min-width: 992px) and (max-width: 1199.9px) {}
 @media (min-width: 1200px) and (max-width: 1399.9px) {}
